@@ -5,44 +5,72 @@
 	 <link rel="stylesheet" href="./style.css">
 	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 <body class="cyan darken-1">
 <header>
 	<nav>
 	  <div class="nav-wrapper green lighten-2">
-	    <a href="#" class="brand-logo">SP</a>
+	    <a href="#" class="brand-logo">Stefan Pazevic</a>
 	    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 	    <ul id="nav-mobile" class="right hide-on-med-and-down">
 	      <li><a href="#">Home</a></li>
-	      <li><a href="#">Yep placeholder</a></li>
-	      <li><a href="#">Resume??</a></li>
+        <li><a href="#project_link">Projects</a></li>
+	      <li><a target='_blank' href="./Assets/Resume.pdf">Resume</a></li>
 	    </ul>
 	  </div>
 	</nav>
 </header>
 <main>
-<!-- hi me -->
 <h1>Stefan Pazevic</h1>
-<p>Hi, my name is Stefan Pazevic and I am a software engineer with skills in Javascript, CSS and HTML, React, Express, and Python. I have a strong sense of project vision and have a knack for tackling large problems. It is my desire to help create products that bring a positive experience to our users and have them enjoy using them. In order to accomplish this I will bring a good work ethic and a positive outlook on work everyday.</p>
-<img src="#" alt="image of my face or something">
+<p class="intro">Hi, my name is Stefan Pazevic and I am a software engineer with skills in Javascript, CSS and HTML, React, Express, and Python. I have a strong sense of project vision and have a knack for tackling large problems. It is my desire to help create products that bring a positive experience to our users and have them enjoy using them. In order to accomplish this I will bring a good work ethic and a positive outlook to work everyday.</p>
+<img src="./Assets/MePhoto.JPG" alt="image of my face" height="300">
+<div id="project_link">
+  <h1 >Projects</h1>
+  <div>
+  <h2>Jump Fighters</h2>
+    <p>A 2D fighting game which pits popular anime characters, from different anime series, against each other. As an avid fan of anime and video games I wanted to create something that demonstrated my love for both of these mediums. This was built using Javascript and incorporated Phaser 3 as a framework.
+    <a class = 'link' target='_blank' href="https://spazevic.github.io/Jump-Fighters/"> Link to website </a> </p>
+  </div>
+  <div>
+  <h2>Gamer Grade</h2>
+    <p>A rating website made for video games done by gamers. I made this website with the intention to have gamers provide reviews for games rather than companies since I felt like the opinions I wanted to hear were from fellow gamers who played games because they wanted to, not because their boss forced them to play a game they had no interest in. I built this using Express and PostgreSQL. 
+      <a class = 'link' target='_blank' href="https://gamer-grade.herokuapp.com/"> Link to website </a>
+  <div>
+  <h2>Game Launch</h2>
+    <p>A gamer networking site made to connect gamers across all their different platforms. My group and I were inspired to make this as we noticed a problem with gaming these days. There are so many places to play games on, but communicating accross all these platforms can be difficult. Thats why we wanted to make a site that centralized communication for gamers. This project was made using React and Express w/ MongoDB. 
+    <a class = 'link' target='_blank' href="https://game-launch-client.herokuapp.com"> Link to website </a> </p>
+  </div>
+  <div>
+  <h2>Animania</h2>
+    <p>A place where you can search for anime set up your own watchlist. As someone who watchesa a fair bit of anime I wanted to make a website celebrating anime that users would find useful and entertaining to use. This project was made using React and Express w/ MongoDB. <a class = 'link' target='_blank' href="https://animania-client.herokuapp.com/"> Link to website </a></p>
+    
+
+  </div>
+
+</div>
+
 </main>
 <footer class="page-footer green lighten-2">
   <div class="container">
+    <h4>Skills</h4>
+    <div class = "grid-container">
+          <div class="grid-item">HTML</div>
+          <div class="grid-item">JS</div>
+          <div class="grid-item">CSS</div>
+          <div class="grid-item">React</div>
+          <div class="grid-item">Python</div>
+          <div class="grid-item">Express</div>
+          <div class="grid-item">PostgreSQL</div>
+          <div class="grid-item">MongoDB</div>
+      </div>
     
   </div>
   <div class="footer-copyright">
 
     <div class="container">
-    	<ul>Skills
-    		<li>HTML</li>
-    		<li>JS</li>
-    		<li>CSS</li>
-    		<li>React</li>
-    		<li>Python</li>
-    		<li>Express</li>
-    	</ul>
 
     © 2020 Copyright Stefan Pazevic
-    <a class="grey-text text-lighten-4 right" href="#!">Social Media???</a>
+    
 
     </div>
   </div>

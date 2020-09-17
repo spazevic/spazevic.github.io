@@ -1,8 +1,37 @@
+main {
+	margin: 100px 50px;
+}
+
 h1 {
 	text-align: right;
+}
 
+h2 {
+	font-family: 'Russo One', sans-serif;
 }
 
 p {
 	font-size: 1.5em;
+}
+
+.intro {
+	font-weight: bold
+}
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.link {
+	color: red;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photo {
+	width: 400px;
+	height: 200px;
 }
